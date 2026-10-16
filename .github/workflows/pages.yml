@@ -25,10 +25,12 @@ jobs:
         uses: actions/checkout@v4
       - name: Configure Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Prepare site artifact
         run: |
           mkdir _site
-          cp index.html app-static.js style.css CNAME _site/
+          cp index.html app-static.js style.css _site/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
