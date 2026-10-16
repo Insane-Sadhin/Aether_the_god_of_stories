@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" role="img" aria-labelledby="title desc">
+  <title id="title">Loki — God of Stories</title>
+  <desc id="desc">A gold and green Yggdrasil glows behind the Loki title.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#123a22"/><stop offset=".55" stop-color="#07110b"/><stop offset="1" stop-color="#020504"/></radialGradient>
+    <linearGradient id="gold" x1="0" x2="1"><stop stop-color="#fff0a8"/><stop offset=".42" stop-color="#ba8121"/><stop offset=".75" stop-color="#efd36e"/><stop offset="1" stop-color="#8f5f18"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse"><path d="M46 0H0v46" fill="none" stroke="#72f49c" stroke-opacity=".04"/></pattern>
+  </defs>
+  <rect width="1280" height="460" fill="url(#bg)"/><rect width="1280" height="460" fill="url(#grid)"/>
+  <g fill="none" stroke="#64f397" stroke-linecap="round" filter="url(#glow)" opacity=".72">
+    <path d="M640 490c-24-102 20-160 0-272" stroke-width="25" stroke="#174d2b"/>
+    <path d="M640 270c-72-54-120-75-228-96M642 272c72-64 142-80 236-116M638 228c-42-70-78-94-110-140M644 228c48-76 88-94 120-160M640 190c-4-72 14-110 2-166" stroke-width="11" stroke="#1d6737"/>
+    <path d="M640 445c-88 24-134 18-218 1M640 445c88 20 140 12 230-4M640 274c-72-54-120-75-228-96M642 276c72-64 142-80 236-116M638 228c-42-70-78-94-110-140M644 228c48-76 88-94 120-160M640 190c-4-72 14-110 2-166" stroke-width="2"/>
+  </g>
+  <g fill="#72f49c" opacity=".65">
+    <circle cx="90" cy="84" r="2"/><circle cx="180" cy="210" r="1"/><circle cx="260" cy="66" r="1"/><circle cx="348" cy="338" r="2"/>
+    <circle cx="428" cy="118" r="1"/><circle cx="518" cy="382" r="1"/><circle cx="596" cy="92" r="2"/><circle cx="704" cy="58" r="1"/>
+    <circle cx="786" cy="372" r="1"/><circle cx="872" cy="98" r="2"/><circle cx="948" cy="326" r="1"/><circle cx="1050" cy="138" r="1"/>
+    <circle cx="1160" cy="270" r="2"/><circle cx="120" cy="360" r="1"/><circle cx="1122" cy="62" r="1"/><circle cx="972" cy="182" r="1"/>
+  </g>
+  <text x="640" y="68" text-anchor="middle" fill="#d9b85b" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="8">MARVEL'S MASTER OF MISCHIEF</text>
+  <text x="640" y="286" text-anchor="middle" fill="url(#gold)" stroke="#fff5bf" stroke-opacity=".12" font-family="Impact, Arial Narrow, sans-serif" font-size="206" letter-spacing="10">LOKI</text>
+  <text x="640" y="338" text-anchor="middle" fill="#f0eadc" font-family="Georgia, serif" font-size="26" font-style="italic">God of lies. Breaker of stories.</text>
+  <path d="M440 374h400" stroke="url(#gold)" stroke-opacity=".7"/><text x="640" y="407" text-anchor="middle" fill="#8fa99a" font-family="Arial, sans-serif" font-size="11" letter-spacing="5">AN INTERACTIVE MULTIVERSAL CHRONICLE</text>
+</svg>
